@@ -20,10 +20,12 @@ public class ClearningClass {
     // Точка входа в программу
     public static void main(String[] args) {
         // Создаем экземпляр реализации уборки квартиры
-     ClearningApart сlearImplement = new ClearImplement();
+    
+
+        ClearningApart clearImplement = new ClearImplement();;
 
         // Создаем экземпляр класса для уборки квартиры и передаем ему порядок действий
-        ClearningClass clearningClass = new ClearningClass(сlearImplement);
+        ClearningClass clearningClass = new ClearningClass(clearImplement);
 
         // Вызываем метод для убоки квартиры
         clearningClass.apartClear();
